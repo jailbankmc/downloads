@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>Downloads</title>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+<style>
+/* Grundstil */
+body {
+    background: linear-gradient(#2c3e50, #1a252f);
+    color: #fff;
+    font-family: 'Press Start 2P', cursive;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background: #0d1117;
+    padding: 30px;
+    text-align: center;
+    border-bottom: 4px solid #e0c068;
+}
+header h1 {
+    color: #e0c068;
+    font-size: 28px;
+    text-shadow: 2px 2px #000;
+}
+.intro {
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+    color: #fff;
+}
+section {
+    padding: 20px;
+}
+h2 {
+    color: #8dc63f;
+    text-shadow: 1px 1px #000;
+    margin-top: 40px;
+}
+.downloads {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.download-card {
+    background: #1b1b1b;
+    border: 3px solid #555;
+    width: 200px;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+.download-card:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px #8dc63f;
+}
+.download-card a {
+    display: inline-block;
+    background: #8dc63f;
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 6px;
+    margin-top: 10px;
+    transition: background 0.2s;
+}
+.download-card a:hover {
+    background: #a6f056;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #0d1117;
+    border-top: 4px solid #e0c068;
+    margin-top: 40px;
+}
+</style>
+</head>
+<body>
+<header>
+    <h1>Downloads</h1>
+</header>
+
+<div class="intro">
+    Hey, das hier sind die <strong>Downloads</strong>
+</div>
+
+<section>
+    <h2>Plugins</h2>
+    <div class="downloads">
+        <div class="download-card">
+            <div>Plugins</div>
+            <a href="downloads/plugin.zip" download>Download</a>
+        </div>
+    </div>
+
+    <h2>Maps</h2>
+    <div class="downloads">
+        <div class="download-card">
+            <div>Map</div>
+            <a href="downloads/map.zip" download>Download</a>
+        </div>
+    </div>
+
+    <h2>Tools</h2>
+    <div class="downloads">
+        <!-- leer -->
+    </div>
+
+    <h2>Assets</h2>
+    <div class="downloads">
+        <div class="download-card">
+            <div>assets</div>
+            <a href="downloads/asset.zip" download>Download</a>
+        </div>
+    </div>
+</section>
+
+<footer>
+    © 2026 JailBank Minecraft Server – Alle Rechte vorbehalten
+</footer>
+</body>
+</html>
